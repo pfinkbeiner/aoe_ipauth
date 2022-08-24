@@ -2,14 +2,19 @@
   "name": "aoe/aoe_ipauth",
   "description": "Authenticates users based on IP address settings",
   "type": "typo3-cms-extension",
-  "keywords": ["TYPO3 CMS", "Authentication"],
-  "license": ["GPL-2.0+"],
+  "keywords": [
+    "TYPO3 CMS",
+    "Authentication"
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
   "homepage": "https://github.com/AOEpeople/aoe_ipauth",
   "support": {
     "issues": "https://github.com/AOEpeople/aoe_ipauth/issues"
   },
   "require": {
-    "typo3/cms-core": "^9.5 || ^10.4 || dev-master"
+    "typo3/cms-core": "^9.5 || ^10.4 || ^11.5 || dev-master"
   },
   "require-dev": {
     "nimut/testing-framework": "^5.0",
